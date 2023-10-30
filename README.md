@@ -1,5 +1,5 @@
 <h1>An example of running Infrastructure as Code (IaC) using Terraform on AWS Infrastructure</h1>.
-<img src="https://github.com/sammyovia/prophius-devops-asses/blob/master/assets/Minimalist%20Colorful%20Organizational%20Structure%20List%20Graph.png" alt="inf">
+<img src="/assets/img.png" alt="inf">
 **Run**
 
  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
