@@ -1,4 +1,4 @@
-<h1>An example of running Infrastructure as Code (IaC) using Terraform</h1>.
+<h1>An example of running Infrastructure as Code (IaC) using Terraform on AWS Infrastructure</h1>.
 
 **Run**
 
