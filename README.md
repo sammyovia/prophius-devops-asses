@@ -1,6 +1,5 @@
 <h1>An example of running Infrastructure as Code (IaC) using Terraform on AWS Infrastructure</h1>.
-<a href="https://drive.google.com/file/d/1NV2zONdRLBReq5hu2tKpxiWS_wGrJtLY/view?usp=drivesdk"></a>
-
+<img src="https://drive.google.com/file/d/1NV2zONdRLBReq5hu2tKpxiWS_wGrJtLY/view?usp=drivesdk" alt="infr_dg">
 **Run**
 
  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
