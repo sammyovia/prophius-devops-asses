@@ -1,5 +1,6 @@
 <h1>An example of running Infrastructure as Code (IaC) using Terraform</h1>.
-Run 
+
+**Run**
 
  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
@@ -42,3 +43,7 @@ Use Case: main.tf sets up the foundational AWS resources for your infrastructure
   - It specifies that a final snapshot should not be taken when destroying the database (`skip_final_snapshot`).
 
 - **Use Case**: `mysql.tf` sets up your MySQL database instance within your AWS environment, which can be used to store data for your applications.
+
+- **Run** terraform init - to initialize Terraform.
+
+- **Run** terraform apply - to run your configuration files.
