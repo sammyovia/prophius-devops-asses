@@ -1,5 +1,8 @@
 <h1>An example of running Infrastructure as Code (IaC) using Terraform on AWS Infrastructure</h1>.
 <img src="/assets/img.png" alt="inf">
+
+<h2>Application setup</h2>
+
 **Run**
 
  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
@@ -7,12 +10,15 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 sudo apt update && sudo apt install terraform
 
 to install Terraform Binaries unto your Linux machine.
+For**Docker** installation on Ubuntu see - https://docs.docker.com/desktop/install/ubuntu/
+
+<h2>Configuration Files </h2>
 
 **main.tf** - 
 
 Purpose: main.tf is typically the primary Terraform configuration file in your project. It defines the core infrastructure components, such as the VPC, subnets, and the Amazon Elastic Kubernetes Service (EKS) cluster.
 
-Details:
+**Details**
 
 It specifies the AWS region where you want to create your resources using the provider block.
 It defines the VPC (aws_vpc) with its associated configuration.
