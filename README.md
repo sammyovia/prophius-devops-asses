@@ -47,5 +47,4 @@ Use Case: main.tf sets up the foundational AWS resources for your infrastructure
 - **Run** terraform init - to initialize Terraform.
 
 - **Run** terraform apply - to run your configuration files.
-**Install** Docker to the local machine to containerize the application, also install Docker on the ECR Instance running on AWS.
-  **Install** mysql service unto your local machine and also on the ECR Service running on AWS.
+
